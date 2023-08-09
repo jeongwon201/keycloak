@@ -9,9 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ss-jwt-keycloak" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar" />
+        </processorPath>
+        <module name="scg-keycloak.gateway.main" />
+        <module name="scg-keycloak.biz.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ss-jwt-keycloak" target="17" />
+      <module name="biz" target="17" />
+      <module name="biz.main" target="17" />
+      <module name="biz.test" target="17" />
+      <module name="gateway" target="17" />
+      <module name="gateway.main" target="17" />
+      <module name="gateway.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

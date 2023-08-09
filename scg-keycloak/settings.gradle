@@ -1,0 +1,4 @@
+rootProject.name = 'scg-keycloak'
+
+include ":biz"
+include ":gateway"

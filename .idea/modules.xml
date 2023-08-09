@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/keycloak.iml" filepath="$PROJECT_DIR$/.idea/keycloak.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ss-jwt-keycloak/ss-jwt-keycloak.iml" filepath="$PROJECT_DIR$/ss-jwt-keycloak/ss-jwt-keycloak.iml" />
     </modules>
   </component>
 </project>
